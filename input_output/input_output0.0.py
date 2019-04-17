@@ -1,8 +1,8 @@
 # This is a comment in Python.  Change this to say something else.
 # Generally comments are used to explain how code works. 
 
-print(Hello, how are you?)
-('What is your name?')
+print("Hello, how are you?")
+     ("What is your name?")
 
 # In Python, you use variables to store data. 
 # Variable names should tell you what data they store. 
@@ -11,4 +11,4 @@ print(Hello, how are you?)
 
 # The next line should print their name back to the screen. 
 
-print(WHAT GOES HERE?)
+print("WHAT GOES HERE?")
