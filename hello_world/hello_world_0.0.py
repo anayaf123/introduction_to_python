@@ -1,3 +1,3 @@
-print()#!/urs/bin/python
+#!/urs/bin/python
 # Hello World
 print('Hello World!')
