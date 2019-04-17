@@ -1,1 +1,2 @@
-print()
+print('sup world')
+print('litty')
