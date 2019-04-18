@@ -1,4 +1,4 @@
-# This is a comment in Python.  Change this to say something else.
+# Memes and skittles makes my day.
 # Generally comments are used to explain how code works. 
 
 print('What is your name?')
