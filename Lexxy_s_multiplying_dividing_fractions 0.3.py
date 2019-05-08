@@ -14,3 +14,12 @@ print("the first fracion is", n1, "/", d1,".\n")
 n2 = 0
 d2 = 0
 print("the second fraction is", n2, "/", d2,".\n")
+
+print("when multiplyng fractions you multiply the two numerators together.\n")
+print("then you multipy the two denominators together. \n")
+
+#variables for the new fraction.
+new_numerator = n1 * n2
+new_denominator = d1 * d2
+
+print("the new fracion is", new_numerator, "/", new_denominator,".\n")
