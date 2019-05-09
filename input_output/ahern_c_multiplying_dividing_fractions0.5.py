@@ -1,4 +1,4 @@
-#Ahern C., Multiplying and Dividing Fractions, 05/06/2019, version 0.4
+#Ahern C., Multiplying and Dividing Fractions, 05/06/2019, version 0.5
 
 print("Hello, my name is Super math bot51. I will multiply and divide fractions for you.\n")
 user_name = input("What is your name? [Type your name and press ENTER.]\n")
