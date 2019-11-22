@@ -1,2 +1,4 @@
-# This is a comment.  Add a comment with your FIRST NAME and LAST INITIAL and the DATE YOU WRITE THE CODE. 
-print(FIGURE OUT WHAT GOES HERE)
+# This code sample will help students create their first "Hello, world!" program. 
+# Type your First Name and Last Initial on this line. 
+# Type the date and time you wrote your code on this line.
+print() # What STRING should you put inside the parentheses () to print "Hello, world!" on the screen. 

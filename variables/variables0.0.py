@@ -1,0 +1,1 @@
+# This code example will help students develop an understanding of the different variable and data types used in Python.
