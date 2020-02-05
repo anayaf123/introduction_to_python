@@ -39,6 +39,7 @@ user3 = user0[8:len(user0)]
 user4 = user3 + user2 + user1
 
 print("Your parents really named you",user4,"?\n")
+time.sleep(2) 
 name_correct = input("Is what really what I should call you?  [Yes/No?]\n") # Create the variable name_correct and assign it a value. 
 name_correct = name_correct[0] # This assigns the name_correct variable to JUST the first letter of the user's answer. 
 name_correct = str.lower(name_correct) # This assigns the name_correct variable to the lower case version of that first letter.
@@ -56,7 +57,7 @@ elif name_correct == "n":
 else:
     print("Something has caught fire.  Emergency!  Prepare for crash.  Restart the program please.  Please enter Yes or No only.\n")
 
-
+time.sleep(2) 
 print(user0,"it's time to move on!  For the next part of this program you will roll a six-sided die to simulate random number generation.  If you don't have a die, please raise your hand.\n")
 dice_roll = 0 # Create a variable called dice_roll and assign it a value of zero.
 dice_roll = input("Please roll the die one time.  Type the number you rolled and press enter.\n") 
