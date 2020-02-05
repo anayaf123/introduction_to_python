@@ -59,23 +59,23 @@ else:
 
 time.sleep(2) 
 print(user0,"it's time to move on!  For the next part of this program you will roll a six-sided die to simulate random number generation.  If you don't have a die, please raise your hand.\n")
-dice_roll = 0 # Create a variable called dice_roll and assign it a value of zero.
-dice_roll = input("Please roll the die one time.  Type the number you rolled and press enter.\n") 
+
+dice_roll = int(input("Please roll the die one time.  Type the number you rolled and press enter.\n"))
 
 # Our second if / else statement.  This checks for each number possible on the die roll. 
 if dice_roll == 1:
     print("Wow, a 1!  What a roll.\n")
     print("Please get a Blue Raspberry Jolly Rancher.\n") 
-if dice_roll == 2:
+elif dice_roll == 2:
     print("Good for you, it's a two!\n")
     print("Please get a Green Apple Jolly Rancher.\n") 
-if dice_roll == 3:
+elif dice_roll == 3:
     print("Squeal with glee, you got a three!\n")
     print("Please get a Cherry Jolly Rancher.\n") 
-if dice_roll == 4:
+elif dice_roll == 4:
     print("Jump off the floor, the die says four!  \n")
     print("Please get a Grape Jolly Rancher.\n") 
-if dice_roll == 5:
+elif dice_roll == 5:
     print("You rolled a five, that's no jive!\n")
     print("Please get a Water Melon Jolly Rancher.\n")
 else:
