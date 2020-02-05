@@ -1,4 +1,4 @@
-# Using if / else Statements, Ryan Kelley, February 04, 2020.  Version 0.21
+# Using if / else Statements, Ryan Kelley, February 05, 2020.  Version 0.210
 
 import random # This is a special library built-in to Python.  It has special methods, in this case .shuffle() that I will use in this code. 
 
@@ -22,7 +22,7 @@ print("""
   .----)   |       |  |     /  _____  \   |  |     |  |____ |  |  |  | |  |____ |  |\   |     |  |    .----)   |   
   |_______/        |__|    /__/     \__\  |__|     |_______||__|  |__| |_______||__| \__|     |__|    |_______/    
                                                                                                                    
-                                       by Ryan Kelley, February 04, 2020 Version 0.21
+                                       by Ryan Kelley, February 04, 2020 Version 0.210
 """)
 print("Hello $user, this program will help you learn how to use if / else statements in your code.  If you have any questions while using this program please raise your hand.\n")
 user0 = str(input("$user, by what name should I call you?  Please, type your firt and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
