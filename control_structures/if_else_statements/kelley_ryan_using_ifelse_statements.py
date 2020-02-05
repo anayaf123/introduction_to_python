@@ -1,6 +1,8 @@
-# Using if / else Statements, Ryan Kelley, February 05, 2020.  Version 0.210
+# Using if / else Statements, Ryan Kelley, February 05, 2020.  Version 0.25
+
 
 import random # This is a special library built-in to Python.  It has special methods, in this case .shuffle() that I will use in this code. 
+import time # This lets us call the sleep() method which pauses the program for a specified number of seconds.
 
 print("""
    __    __       _______. __  .__   __.   _______                                                                 
@@ -22,8 +24,9 @@ print("""
   .----)   |       |  |     /  _____  \   |  |     |  |____ |  |  |  | |  |____ |  |\   |     |  |    .----)   |   
   |_______/        |__|    /__/     \__\  |__|     |_______||__|  |__| |_______||__| \__|     |__|    |_______/    
                                                                                                                    
-                                       by Ryan Kelley, February 04, 2020 Version 0.210
+                                       by Ryan Kelley, February 05, 2020 Version 0.25
 """)
+time.sleep(2) 
 print("Hello $user, this program will help you learn how to use if / else statements in your code.  If you have any questions while using this program please raise your hand.\n")
 user0 = str(input("$user, by what name should I call you?  Please, type your firt and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
 # In Python, = is the English equivalent of "Make the thing on the left have the same value as the thing on the right."  
@@ -45,13 +48,39 @@ name_correct = str.lower(name_correct) # This assigns the name_correct variable 
 
 if name_correct == "y": # == is the English equivalent of "Is the thing on the left the same as the thing on the right?"
     # If they answer yes just leave user0 variable alone and continue on in the program.
-    user0 = user4 
     print("Ok, ",user0,"it is!\n")
 elif name_correct == "n":
     # On the next line we will have the user re-type their name.  
     user0 = str(input("I am sorry.  I experienced a memory error in one of my circuits.  Please retype your name and press enter.\n"))
     print("Ahh! Yes,",user0,"that's more like it!\n")
 else:
-    print("Something has caught fire.  Emergency!  Prepare for crash.  Restart the program please.  Please enter Yes or No only.\n")  
+    print("Something has caught fire.  Emergency!  Prepare for crash.  Restart the program please.  Please enter Yes or No only.\n")
+
+
+print(user0,"it's time to move on!  For the next part of this program you will roll a six-sided die to simulate random number generation.  If you don't have a die, please raise your hand.\n")
+dice_roll = 0 # Create a variable called dice_roll and assign it a value of zero.
+dice_roll = input("Please roll the die one time.  Type the number you rolled and press enter.\n") 
+
+# Our second if / else statement.  This checks for each number possible on the die roll. 
+if dice_roll == 1:
+    print("Wow, a 1!  What a roll.\n")
+    print("Please get a Blue Raspberry Jolly Rancher.\n") 
+if dice_roll == 2:
+    print("Good for you, it's a two!\n")
+    print("Please get a Green Apple Jolly Rancher.\n") 
+if dice_roll == 3:
+    print("Squeal with glee, you got a three!\n")
+    print("Please get a Cherry Jolly Rancher.\n") 
+if dice_roll == 4:
+    print("Jump off the floor, the die says four!  \n")
+    print("Please get a Grape Jolly Rancher.\n") 
+if dice_roll == 5:
+    print("You rolled a five, that's no jive!\n")
+    print("Please get a Water Melon Jolly Rancher.\n")
+else:
+    print("You rolled a six, please take your pick!  Get any flavor Jolly Rancher you would like.\n")
+
     
+
+
 
